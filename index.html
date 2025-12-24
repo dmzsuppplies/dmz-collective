@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DMZ Watch Time | Luxury Watch Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="video-bg">
+        <video autoplay muted loop playsinline>
+            <source src="images/BG.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div class="main-content">
+        <header>
+            <div class="brand-logo">
+                <h1>DMZ TIME WATCH</h1>
+                <p>PREMIUM WATCH COLLECTION</p>
+            </div>
+            
+            <div class="nav-filters">
+                <input type="text" id="searchInput" placeholder="Search models..." onkeyup="filterWatches()">
+                <select id="priceFilter" onchange="filterWatches()">
+                    <option value="all">All Prices</option>
+                    <option value="low">Below ₱3,000</option>
+                    <option value="mid">₱3,000 - ₱5,000</option>
+                    <option value="high">Above ₱5,000</option>
+                </select>
+            </div>
+        </header>
+
+        <div class="hero">
+            <h2>Exquisite Timepieces</h2>
+            <p>Discover elegance and precision in our 2026 luxury collection.</p>
+        </div>
+
+        <div class="container" id="watchContainer">
+            <div class="card" data-name="CASIO MENS GOLD MTP B145G 9A" data-price="6360">
+                <a href="details.html?name=CASIO MENS GOLD MTP B145G 9A&price=6,360.00&img=images/MTP-B145G-9A.png">
+                    <img src="images/MTP-B145G-9A.png" alt="Watch 1">
+                </a>
+                <h3>CASIO MENS GOLD</h3>
+				<h3>MTP B145G 9A</h3>
+                <span class="price">₱ 6,360.00</span>
+                <button class="buy-btn">BUY NOW</button>
+            </div>
+
+            <div class="card" data-name="CASIO MENS GOLD MTP VD03G 1A" data-price="2899">
+                <a href="details.html?name=CASIO MENS GOLD MTP VD03G 1A&price=2,899.00&img=images/MTP-VD03G-1A.png">
+                    <img src="images/MTP-VD03G-1A.png" alt="Watch 2">
+                </a>
+                <h3>CASIO MENS GOLD</h3>
+				<h3>MTP VD03G 1A</h3>
+                <span class="price">₱ 2,899.00</span>
+                <button class="buy-btn">BUY NOW</button>
+            </div>
+
+            <div class="card" data-name="CASIO MENS GOLD MTP VD200G 1B" data-price="3199">
+                <a href="details.html?name=CASIO MENS GOLD MTP VD200G 1B&price=3,199.00&img=images/MTP-VD200G-1B.png">
+                    <img src="images/MTP-VD200G-1B.png" alt="Watch 3">
+                </a>
+                <h3>CASIO MENS GOLD</h3>
+				<h3>MTP VD200G 1B</h3>
+                <span class="price">₱ 3,199.00</span>
+                <button class="buy-btn">BUY NOW</button>
+            </div>
+
+            <div id="no-results" style="display:none; text-align:center; width:100%; padding:50px;">
+                <h3>Sorry, no watches were found matching your criteria.</h3>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2025 DMZ Time Watch. All Rights Reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        function filterWatches() {
+            let input = document.getElementById('searchInput').value.toUpperCase();
+            let priceVal = document.getElementById('priceFilter').value;
+            let cards = document.getElementsByClassName('card');
+            let noResults = document.getElementById('no-results');
+            let hasVisibleCard = false;
+
+            for (let i = 0; i < cards.length; i++) {
+                let name = cards[i].getAttribute('data-name').toUpperCase();
+                let price = parseFloat(cards[i].getAttribute('data-price'));
+                
+                let matchesSearch = name.includes(input);
+                let matchesPrice = false;
+
+                if (priceVal === "all") matchesPrice = true;
+                else if (priceVal === "low" && price < 3000) matchesPrice = true;
+                else if (priceVal === "mid" && price >= 3000 && price <= 5000) matchesPrice = true;
+                else if (priceVal === "high" && price > 5000) matchesPrice = true;
+
+                if (matchesSearch && matchesPrice) {
+                    cards[i].style.display = "";
+                    hasVisibleCard = true;
+                } else {
+                    cards[i].style.display = "none";
+                }
+            }
+            noResults.style.display = hasVisibleCard ? "none" : "block";
+        }
+    </script>
+</body>
+</html>
