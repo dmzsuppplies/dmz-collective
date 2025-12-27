@@ -3,143 +3,207 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DMZ Watch Time | Luxury Watch Store</title>
+    <title>DMZ TIME WATCH | Official Store</title>
     
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://dmzsuppplies.github.io/dmz-time-watch/">
-    <meta property="og:title" content="DMZ Watch Time | Luxury Watch Store">
-    <meta property="og:description" content="Discover elegance and precision in our 2026 luxury watch collection.">
+    <meta property="og:title" content="DMZ TIME WATCH | Luxury Collection">
+    <meta property="og:description" content="Shop authentic Casio, Seiko, and Citizen watches.">
     <meta property="og:image" content="https://dmzsuppplies.github.io/dmz-time-watch/dmz-time-watch.png">
 
     <link rel="icon" type="image/png" href="dmz-time-watch.png">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <div class="video-bg">
-        <video autoplay muted loop playsinline>
-            <source src="BG.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
+        <video autoplay muted loop playsinline><source src="BG.mp4" type="video/mp4"></video>
     </div>
 
-    <div class="main-content">
-        <header>
-            <div class="brand-logo">
-                <h1>DMZ TIME WATCH</h1>
-                <p>PREMIUM WATCH COLLECTION</p>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="dmz-time-watch.png" alt="DMZ Logo" class="nav-logo-img">
+                <div class="logo-text">
+                    <h1>DMZ TIME</h1>
+                    <span>WATCH COLLECTION</span>
+                </div>
             </div>
-            
-            <div class="nav-filters">
-                <input type="text" id="searchInput" placeholder="Search models..." onkeyup="filterWatches()">
-                <select id="priceFilter" onchange="filterWatches()">
-                    <option value="all">All Prices</option>
-                    <option value="low">Below ₱3,000</option>
-                    <option value="mid">₱3,000 - ₱5,000</option>
-                    <option value="high">Above ₱5,000</option>
-                </select>
-            </div>
-        </header>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#collection">Collection</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
 
-        <div class="hero">
-            <h2>Exquisite Timepieces</h2>
-            <p>Discover elegance and precision in our 2026 luxury collection.</p>
+    <section class="hero-v2">
+        <div class="hero-content">
+            <h2>TIMELESS PRECISION</h2>
+            <p>Experience luxury with our 2026 Premium Collection</p>
+            <a href="#collection" class="cta-btn">EXPLORE NOW</a>
+        </div>
+    </section>
+
+    <div class="filter-section">
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search model..." onkeyup="filterWatches()">
+        </div>
+        <div class="category-btns">
+            <select id="priceSort" onchange="filterWatches()" class="filter-btn">
+                <option value="none">Sort by Price</option>
+                <option value="low">Lowest to Highest</option>
+                <option value="high">Highest to Lowest</option>
+            </select>
+            
+            <button class="filter-btn active" onclick="filterCategory('all', this)">All</button>
+            <button class="filter-btn" onclick="filterCategory('CASIO', this)">Casio</button>
+            <button class="filter-btn" onclick="filterCategory('SEIKO', this)">Seiko</button>
+            <button class="filter-btn" onclick="filterCategory('CITIZEN', this)">Citizen</button>
+        </div>
+    </div>
+
+    <main class="container" id="collection">
+        <div id="noResultsMessage" style="display:none; text-align:center; width:100%; padding: 50px; color: #D4AF37;">
+            <h3>Sorry, no items found.</h3>
+            <p>Please try a different search or filter.</p>
         </div>
 
-        <div class="container" id="watchContainer">
-            <div class="card" data-name="CASIO MENS GOLD MTP B145G 9A" data-price="6360">
-                <span class="promo-badge">20% OFF</span>
-                <a href="details.html?name=CASIO MENS GOLD MTP B145G 9A&price=6,360.00&img=MTP-B145G-9A.png">
-                    <img src="MTP-B145G-9A.png" alt="Watch 1">
-                </a>
-                <h3>CASIO MENS GOLD</h3>
-                <h3>MTP B145G 9A</h3>
-                <span class="price">₱ 6,360.00</span>
-                <button class="buy-btn">BUY NOW</button>
-            </div>
-
-            <div class="card" data-name="CASIO MENS GOLD MTP VD03G 1A" data-price="2899">
-                <span class="promo-badge">20% OFF</span>
-                <a href="details.html?name=CASIO MENS GOLD MTP VD03G 1A&price=2,899.00&img=MTP-VD03G-1A.png">
-                    <img src="MTP-VD03G-1A.png" alt="Watch 2">
-                </a>
-                <h3>CASIO MENS GOLD</h3>
-                <h3>MTP VD03G 1A</h3>
-                <span class="price">₱ 2,899.00</span>
-                <button class="buy-btn">BUY NOW</button>
-            </div>
-
-            <div class="card" data-name="CASIO MENS GOLD MTP VD200G 1B" data-price="3120">
-                <span class="promo-badge">20% OFF</span>
-                <a href="details.html?name=CASIO MENS GOLD MTP VD200G 1B&price=3,199.00&img=MTP-VD200G-1B.png">
-                    <img src="MTP-VD200G-1B.png" alt="Watch 3">
-                </a>
-                <h3>CASIO MENS GOLD</h3>
-                <h3>MTP VD200G 1B</h3>
-                <span class="price">₱ 3,199.00</span>
-                <button class="buy-btn">BUY NOW</button>
-            </div>
+        <div class="product-grid" id="watchContainer">
             
-            <div class="card" data-name="CASIO MENS SILVER MTP VD01D 3E2" data-price="3199">
-                <span class="promo-badge">20% OFF</span>
-                <a href="details.html?name=CASIO MENS SILVER MTP VD01D 3E2&price=3,199.00&img=MTP-VD01D-3E2.png">
-                    <img src="MTP-VD01D-3E2.png" alt="Watch 4">
-                </a>
-                <h3>CASIO MENS SILVER</h3>
-                <h3>MTP VD01D 3E2</h3>
-                <span class="price">₱ 3,199.00</span>
-                <button class="buy-btn">BUY NOW</button>
-            </div>
-            
-            <div class="card" data-name="CASIO MENS TWO TONE MTP VD300SG 1E" data-price="4199">
-                <span class="promo-badge">20% OFF</span>
-                <a href="details.html?name=CASIO MENS TWO TONE MTP VD300SG 1E&price=4,199.00&img=MTP-VD300SG-1E.png">
-                <img src="MTP-VD300SG-1E.png" alt="Watch 5">
-                </a>
-                <h3>CASIO MENS TWO TONE</h3>
-                <h3>MTP VD300SG 1E</h3>
-                <span class="price">₱ 4,199.00</span>
-                <button class="buy-btn">BUY NOW</button>
+            <div class="card" data-brand="CASIO" data-name="CASIO MENS GOLD MTP B145G 9A" data-price="6360">
+                <div class="badge">20% OFF</div>
+                <div class="card-img"><img src="MTP-B145G-9A.png"></div>
+                <div class="card-info">
+                    <h3>CASIO MENS GOLD</h3><p class="model">MTP B145G 9A</p>
+                    <span class="price">₱ 6,360.00</span>
+                    <a href="details.html?name=CASIO MENS GOLD MTP B145G 9A&price=6,360.00&img=MTP-B145G-9A.png&discount=20" class="view-btn">VIEW DETAILS</a>
+                </div>
             </div>
 
-            <div id="no-results" style="display:none; text-align:center; width:100%; padding:50px;">
-                <h3>Sorry, no watches were found matching your criteria.</h3>
+            <div class="card" data-brand="CASIO" data-name="CASIO MENS GOLD MTP VD03G 1A" data-price="2899">
+                <div class="badge">20% OFF</div>
+                <div class="card-img"><img src="MTP-VD03G-1A.png"></div>
+                <div class="card-info">
+                    <h3>CASIO MENS GOLD</h3><p class="model">MTP VD03G 1A</p>
+                    <span class="price">₱ 2,899.00</span>
+                    <a href="details.html?name=CASIO MENS GOLD MTP VD03G 1A&price=2,899.00&img=MTP-VD03G-1A.png&discount=20" class="view-btn">VIEW DETAILS</a>
+                </div>
+            </div>
+
+            <div class="card" data-brand="CASIO" data-name="CASIO MENS GOLD MTP VD200G 1B" data-price="3199">
+                <div class="badge">20% OFF</div>
+                <div class="card-img"><img src="MTP-VD200G-1B.png"></div>
+                <div class="card-info">
+                    <h3>CASIO MENS GOLD</h3><p class="model">MTP VD200G 1B</p>
+                    <span class="price">₱ 3,199.00</span>
+                    <a href="details.html?name=CASIO MENS GOLD MTP VD200G 1B&price=3,199.00&img=MTP-VD200G-1B.png&discount=20" class="view-btn">VIEW DETAILS</a>
+                </div>
+            </div>
+
+            <div class="card" data-brand="CASIO" data-name="CASIO MENS SILVER MTP VD01D 3E2" data-price="3199">
+                <div class="badge">20% OFF</div>
+                <div class="card-img"><img src="MTP-VD01D-3E2.png"></div>
+                <div class="card-info">
+                    <h3>CASIO MENS SILVER</h3><p class="model">MTP VD01D 3E2</p>
+                    <span class="price">₱ 3,199.00</span>
+                    <a href="details.html?name=CASIO MENS SILVER MTP VD01D 3E2&price=3,199.00&img=MTP-VD01D-3E2.png&discount=20" class="view-btn">VIEW DETAILS</a>
+                </div>
+            </div>
+
+            <div class="card" data-brand="CASIO" data-name="CASIO MENS TWO TONE MTP VD300SG 1E" data-price="4199">
+                <div class="badge">20% OFF</div>
+                <div class="card-img"><img src="MTP-VD300SG-1E.png"></div>
+                <div class="card-info">
+                    <h3>CASIO TWO TONE</h3><p class="model">MTP VD300SG 1E</p>
+                    <span class="price">₱ 4,199.00</span>
+                    <a href="details.html?name=CASIO MENS TWO TONE MTP VD300SG 1E&price=4,199.00&img=MTP-VD300SG-1E.png&discount=20" class="view-btn">VIEW DETAILS</a>
+                </div>
+            </div>
+
+            <div class="card" data-brand="SEIKO" data-name="SEIKO MENS GOLD SNKK20K1" data-price="10799">
+                <div class="badge">10% OFF</div>
+                <div class="card-img"><img src="SNKK20K1.png"></div>
+                <div class="card-info">
+                    <h3>SEIKO MENS GOLD</h3><p class="model">SNKK20K1</p>
+                    <span class="price">₱ 10,799.00</span>
+                    <a href="details.html?name=SEIKO MENS GOLD SNKK20K1&price=10,799.00&img=SNKK20K1.png&discount=10" class="view-btn">VIEW DETAILS</a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About DMZ Time</h4>
+                <p>Providing premium watches and trusted service since 2025. Your destination for authentic luxury timepieces.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Customer Service</h4>
+                <ul style="list-style:none; padding:0;">
+                    <li style="margin-bottom: 10px;"><a href="about.html" style="color:#fff; text-decoration:none;">About Us</a></li>
+                    <li style="margin-bottom: 10px;">
+                        <a href="https://m.me/DMZWatchTime" target="_blank" style="color:#fff; text-decoration:none; display: flex; align-items: center; justify-content: center; gap: 8px;">
+                            <span>Messenger</span>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Facebook_Messenger_logo_2020.svg" width="15" alt="Messenger">
+                        </a>
+                    </li>
+                    <li><a href="shipping.html" style="color:#fff; text-decoration:none;">Shipping & Delivery</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Payments</h4>
+                <p style="font-size: 0.7rem; letter-spacing: 2px; color: #D4AF37;">VISA | GoTYME | GCASH | PAYPAL</p>
             </div>
         </div>
-
-        <footer>
+        <div class="footer-bottom">
             <p>&copy; 2025 DMZ Time Watch. All Rights Reserved.</p>
-        </footer>
-    </div>
+        </div>
+    </footer>
 
     <script>
+        let currentBrand = 'all';
+
         function filterWatches() {
             let input = document.getElementById('searchInput').value.toUpperCase();
-            let priceVal = document.getElementById('priceFilter').value;
-            let cards = document.getElementsByClassName('card');
-            let noResults = document.getElementById('no-results');
-            let hasVisibleCard = false;
+            let priceSort = document.getElementById('priceSort').value;
+            let cards = Array.from(document.getElementsByClassName('card'));
+            let container = document.getElementById('watchContainer');
+            let noResults = document.getElementById('noResultsMessage');
+            let visibleCount = 0;
 
-            for (let i = 0; i < cards.length; i++) {
-                let name = cards[i].getAttribute('data-name').toUpperCase();
-                let price = parseFloat(cards[i].getAttribute('data-price'));
-                
-                let matchesSearch = name.includes(input);
-                let matchesPrice = false;
-
-                if (priceVal === "all") matchesPrice = true;
-                else if (priceVal === "low" && price < 3000) matchesPrice = true;
-                else if (priceVal === "mid" && price >= 3000 && price <= 5000) matchesPrice = true;
-                else if (priceVal === "high" && price > 5000) matchesPrice = true;
-
-                if (matchesSearch && matchesPrice) {
-                    cards[i].style.display = "";
-                    hasVisibleCard = true;
-                } else {
-                    cards[i].style.display = "none";
-                }
+            if (priceSort === "low") {
+                cards.sort((a, b) => parseFloat(a.getAttribute('data-price')) - parseFloat(b.getAttribute('data-price')));
+            } else if (priceSort === "high") {
+                cards.sort((a, b) => parseFloat(b.getAttribute('data-price')) - parseFloat(a.getAttribute('data-price')));
             }
-            noResults.style.display = hasVisibleCard ? "none" : "block";
+
+            cards.forEach(card => {
+                container.appendChild(card);
+                let name = card.getAttribute('data-name').toUpperCase();
+                let brand = card.getAttribute('data-brand');
+                let matchesSearch = name.includes(input);
+                let matchesBrand = (currentBrand === 'all' || brand === currentBrand);
+
+                if (matchesSearch && matchesBrand) {
+                    card.style.display = "";
+                    visibleCount++;
+                } else {
+                    card.style.display = "none";
+                }
+            });
+            noResults.style.display = (visibleCount === 0) ? "block" : "none";
+        }
+
+        function filterCategory(brand, btn) {
+            currentBrand = brand;
+            let btns = document.getElementsByClassName('filter-btn');
+            for (let b of btns) b.classList.remove('active');
+            btn.classList.add('active');
+            filterWatches();
         }
     </script>
 </body>

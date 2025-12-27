@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="tl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,297 +8,114 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://dmzsuppplies.github.io/dmz-time-watch/">
     <meta property="og:title" content="DMZ Watch Time | Luxury Watch Store">
-    <meta property="og:description" content="Discover elegance and precision in our 2026 luxury watch collection.">
+    <meta property="og:description" content="Shop authentic watches with exclusive discounts.">
     <meta property="og:image" content="https://dmzsuppplies.github.io/dmz-time-watch/dmz-time-watch.png">
 
     <link rel="stylesheet" href="style.css">
     <style>
-        /* Eksklusibong disenyo para sa Details Page */
         body, html { height: 100%; margin: 0; }
-
-        .details-wrapper {
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            position: relative;
-            z-index: 1;
-        }
-
-        .product-hero {
-            flex: 1;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 40px 20px;
-            gap: 50px;
-            flex-wrap: wrap;
-        }
-
-        .glass-image-box {
-            background: rgba(255, 255, 255, 0.05);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(212, 175, 55, 0.3);
-            border-radius: 20px;
-            padding: 40px;
-            max-width: 450px;
-            width: 100%;
-            position: relative;
-            overflow: hidden;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .glass-image-box::before, .glass-image-box::after {
-            content: "";
-            position: absolute;
-            width: 140%;
-            height: 100%;
-            border: 20px solid #D4AF37;
-            border-radius: 50%;
-            opacity: 0.5;
-            pointer-events: none;
-        }
-        .glass-image-box::before { top: -75%; left: -40%; }
-        .glass-image-box::after { bottom: -75%; right: -40%; }
-
-        .glass-image-box img {
-            max-width: 100%;
-            height: auto;
-            position: relative;
-            z-index: 2;
-            filter: drop-shadow(0 0 20px rgba(0,0,0,0.6));
-        }
-
-        .glass-info-box {
-            background: rgba(0, 0, 0, 0.65);
-            backdrop-filter: blur(15px);
-            border: 1px solid rgba(212, 175, 55, 0.2);
-            border-radius: 20px;
-            padding: 40px;
-            max-width: 500px;
-            width: 100%;
-            color: #fff;
-        }
-
-        .glass-info-box h1 {
-            font-size: 2rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-bottom: 10px;
-            color: #fff;
-        }
-
-        /* --- PROMO & PRICE STYLES --- */
-        .price-container {
-            margin-bottom: 25px;
-        }
-
-        .original-price {
-            font-size: 1.2rem;
-            color: #bbb;
-            text-decoration: line-through;
-            margin-right: 10px;
-        }
-
-        .promo-tag {
-            background: #ff0000;
-            color: #fff;
-            padding: 2px 10px;
-            border-radius: 4px;
-            font-size: 0.9rem;
-            font-weight: bold;
-            display: inline-block;
-            animation: vibrate-blink 0.3s infinite;
-        }
-
-        .discounted-price {
-            font-size: 2.2rem;
-            color: #D4AF37;
-            font-weight: bold;
-            display: block;
-            margin-top: 5px;
-        }
-
-        @keyframes vibrate-blink {
-            0% { transform: translate(0); opacity: 1; }
-            25% { transform: translate(2px, -2px); opacity: 0.8; }
-            50% { transform: translate(-2px, 2px); opacity: 1; }
-            75% { transform: translate(2px, 2px); opacity: 0.8; }
-            100% { transform: translate(0); opacity: 1; }
-        }
-
-        .spec-section-title {
-            color: #D4AF37;
-            font-weight: bold;
-            font-size: 1rem;
-            border-left: 4px solid #D4AF37;
-            padding-left: 10px;
-            margin-bottom: 15px;
-            text-transform: uppercase;
-        }
-
-        .spec-list { width: 100%; margin-bottom: 25px; }
-        .spec-item { display: flex; padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,0.1); }
-        .spec-label { width: 130px; color: #bbb; font-size: 0.9rem; }
-        .spec-val { flex: 1; color: #fff; font-size: 0.9rem; }
-
-        .official-link {
-            color: #D4AF37;
-            text-decoration: none;
-            font-size: 0.85rem;
-            border-bottom: 1px dotted #D4AF37;
-            transition: 0.3s;
-        }
+        .details-container { padding-top: 100px; min-height: 100vh; display: flex; justify-content: center; align-items: center; }
+        .glass-panel { background: rgba(0, 0, 0, 0.75); backdrop-filter: blur(20px); border: 1px solid rgba(212, 175, 55, 0.3); border-radius: 20px; display: flex; max-width: 1100px; width: 95%; overflow: hidden; flex-wrap: wrap; }
+        .image-section { flex: 1; min-width: 350px; background: rgba(255, 255, 255, 0.02); display: flex; justify-content: center; align-items: center; padding: 40px; border-right: 1px solid rgba(212, 175, 55, 0.2); }
+        .image-section img { max-width: 100%; height: auto; filter: drop-shadow(0 0 30px rgba(0,0,0,0.8)); }
+        .info-section { flex: 1; min-width: 350px; padding: 50px; display: flex; flex-direction: column; }
+        .info-section h1 { font-size: 2.2rem; margin-bottom: 10px; color: #fff; }
+        .model-code { color: #D4AF37; font-size: 0.9rem; margin-bottom: 20px; letter-spacing: 2px; }
+        .price-box { margin-bottom: 20px; }
+        .old-price { font-size: 1.2rem; color: #888; text-decoration: line-through; }
+        .discount-label { background: #ff0000; color: #fff; padding: 3px 10px; border-radius: 4px; font-size: 0.8rem; margin-left: 10px; animation: vibrate-blink 0.3s infinite; }
+        .new-price { font-size: 2.8rem; color: #D4AF37; font-weight: bold; display: block; }
+        .specs-grid { margin-top: 20px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px; }
+        .spec-row { display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
+        .spec-key { color: #aaa; font-size: 0.9rem; }
+        .spec-val { color: #fff; font-size: 0.9rem; font-weight: bold; }
+        
+        /* FULL SPECS LINK STYLE */
+        .official-link { color: #D4AF37; text-decoration: none; font-size: 0.85rem; margin-top: 15px; display: inline-block; border-bottom: 1px dotted #D4AF37; transition: 0.3s; }
         .official-link:hover { color: #fff; border-bottom-color: #fff; }
 
-        .messenger-btn {
-            background: #fff;
-            color: #000;
-            padding: 14px 25px;
-            border: none;
-            border-radius: 4px;
-            font-weight: bold;
-            text-transform: uppercase;
-            cursor: pointer;
-            width: 100%;
-            margin-top: 25px;
-            letter-spacing: 1px;
-            transition: 0.3s;
-        }
-        .messenger-btn:hover { background: #D4AF37; color: #000; }
-
-        .back-nav {
-            max-width: 1100px;
-            margin: 20px auto 0;
-            width: 100%;
-            padding: 0 20px;
-        }
-        .back-nav a {
-            text-decoration: none;
-            color: #D4AF37;
-            font-weight: bold;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            transition: 0.3s;
-        }
-        .back-nav a:hover { color: #fff; }
+        .order-btn { background: #D4AF37; color: #000; padding: 18px; border: none; border-radius: 5px; font-weight: bold; font-size: 1rem; cursor: pointer; margin-top: 30px; transition: 0.3s; text-transform: uppercase; }
+        .order-btn:hover { background: #fff; box-shadow: 0 0 20px rgba(212,175,55,0.5); }
+        @media (max-width: 768px) { .glass-panel { flex-direction: column; } .image-section { border-right: none; border-bottom: 1px solid rgba(212, 175, 55, 0.2); } .info-section { padding: 30px; } }
     </style>
 </head>
 <body>
-
     <div class="video-bg">
-        <video autoplay muted loop playsinline>
-            <source src="BG.mp4" type="video/mp4">
-        </video>
+        <video autoplay muted loop playsinline><source src="BG.mp4" type="video/mp4"></video>
     </div>
 
-    <div class="details-wrapper">
-        <header>
-            <div class="brand-logo">
-                <h1>DMZ TIME WATCH</h1>
-                <p>PREMIUM WATCH COLLECTION</p>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="dmz-time-watch.png" alt="DMZ Logo" class="nav-logo-img">
+                <div class="logo-text"><h1>DMZ TIME</h1><span>WATCH COLLECTION</span></div>
             </div>
-        </header>
-
-        <div class="back-nav">
-            <a href="index.html"><span>←</span> BACK TO COLLECTION</a>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#collection">Collection</a></li>
+            </ul>
         </div>
+    </nav>
 
-        <div class="product-hero">
-            <div class="glass-image-box">
-                <img id="wImg" src="" alt="Watch Image">
-            </div>
-
-            <div class="glass-info-box">
+    <div class="details-container">
+        <div class="glass-panel">
+            <div class="image-section"><img id="wImg" src="" alt="Watch Image"></div>
+            <div class="info-section">
+                <p class="model-code">PREMIUM TIMEPIECE</p>
                 <h1 id="wName">Loading...</h1>
-                
-                <div class="price-container">
-                    <span class="original-price" id="oldPrice">₱ 0.00</span>
-                    <span class="promo-tag">20% OFF</span>
-                    <span class="discounted-price" id="wPrice">₱ 0.00</span>
+                <div class="price-box">
+                    <span class="old-price" id="oldPrice">₱ 0.00</span>
+                    <span class="discount-label" id="promoPercent">0% OFF</span>
+                    <span class="new-price" id="wPrice">₱ 0.00</span>
                 </div>
+                <div id="specsContainer" class="specs-grid"></div>
                 
-                <div class="spec-section-title">Basic Information</div>
-                <div id="specsContainer" class="spec-list"></div>
-
                 <a id="wLink" href="#" target="_blank" class="official-link">🌐 View Full Official Specifications</a>
-                <button class="messenger-btn" onclick="confirmOrder()">ORDER VIA MESSENGER</button>
+                
+                <button class="order-btn" onclick="confirmOrder()">ORDER VIA MESSENGER</button>
             </div>
         </div>
-
-        <footer>
-            <p>&copy; 2025 DMZ Time Watch. All Rights Reserved.</p>
-        </footer>
     </div>
 
     <script>
         const watchDatabase = {
-            "CASIO MENS GOLD MTP B145G 9A": {
-                caseSize: "40 × 35 × 7.4 mm", weight: "82 g", material: "Gold Ion Plated Stainless Steel",
-                band: "Stainless Steel Band / One-touch 3-fold Clasp", waterRes: "50-meter water resistance",
-                battery: "Approx. 3 years on SR621SW", fullSpecs: "https://www.casio.com/ph/watches/casio/product.MTP-B145G-9AV/"
-            },
-            "CASIO MENS GOLD MTP VD03G 1A": {
-                caseSize: "48 × 41 × 9.6 mm", weight: "106 g", material: "Gold tone Case and Bezel",
-                band: "Stainless Steel Band / Triple-fold Clasp", waterRes: "Water Resistant",
-                battery: "Approx. 3 years on SR626SW", fullSpecs: "https://www.casio.com/ph/watches/casio/product.MTP-VD03G-1A/"
-            },
-            "CASIO MENS GOLD MTP VD200G 1B": {
-                caseSize: "49 × 45 × 8.7 mm", weight: "112 g", material: "Gold tone Case and Bezel",
-                band: "Stainless Steel Band / Triple-fold Clasp", waterRes: "Water Resistant",
-                battery: "Approx. 3 years on SR626SW", fullSpecs: "https://www.casio.com/ph/watches/casio/product.MTP-VD200G-1B/"
-            },
-            "CASIO MENS SILVER MTP VD01D 3E2": {
-                caseSize: "49 × 45 × 10.3 mm", weight: "118 g", material: "Silver tone Case and Bezel",
-                band: "Stainless Steel Band / Triple-fold Clasp", waterRes: "Water Resistant",
-                battery: "Approx. 3 years on SR626SW", fullSpecs: "https://www.casio.com/ph/watches/casio/product.MTP-VD01D-3E2V/"
-            },
-            "CASIO MENS TWO TONE MTP VD300SG 1E": {
-                caseSize: "49 × 45 × 8.7 mm", weight: "110 g", material: "Two-tone Stainless Steel",
-                band: "Stainless Steel Band", waterRes: "Water Resistant",
-                battery: "Approx. 3 years on SR626SW", fullSpecs: "https://www.casio.com/ph/watches/casio/"
-            }
+            "CASIO MENS GOLD MTP B145G 9A": { movement: "Analog", case: "40 × 35 × 7.4 mm", material: "Gold Ion Plated", water: "50-meter", battery: "SR621SW", fullSpecs: "https://www.casio.com/ph/watches/casio/product.MTP-B145G-9AV/" },
+            "CASIO MENS GOLD MTP VD03G 1A": { movement: "Analog", case: "48 × 41 × 9.6 mm", material: "Gold tone", water: "Water Resistant", battery: "SR626SW", fullSpecs: "https://www.casio.com/ph/watches/casio/product.MTP-VD03G-1A/" },
+            "CASIO MENS GOLD MTP VD200G 1B": { movement: "Analog", case: "49 × 45 × 8.7 mm", material: "Gold tone", water: "Water Resistant", battery: "SR626SW", fullSpecs: "https://www.casio.com/ph/watches/casio/product.MTP-VD200G-1B/" },
+            "CASIO MENS SILVER MTP VD01D 3E2": { movement: "Analog", case: "49 × 45 × 10.3 mm", material: "Silver tone", water: "Water Resistant", battery: "SR626SW", fullSpecs: "https://www.casio.com/ph/watches/casio/product.MTP-VD01D-3E2V/" },
+            "CASIO MENS TWO TONE MTP VD300SG 1E": { movement: "Analog", case: "49 × 45 × 8.7 mm", material: "Two-tone Steel", water: "Water Resistant", battery: "SR626SW", fullSpecs: "https://www.casio.com/ph/watches/casio/" },
+            "SEIKO MENS GOLD SNKK20K1": { movement: "Automatic (7S26)", case: "38mm Diameter", material: "Gold-Plated", water: "30m", battery: "Kinetic", fullSpecs: "https://www.watchportal.com.ph/products/seiko-snkk20k1" }
         };
 
         const params = new URLSearchParams(window.location.search);
         const name = params.get('name');
-        const priceString = params.get('price');
-        const imgPath = params.get('img');
-        
-        // --- MATH FOR DISCOUNT ---
-        // Alisin ang characters na hindi numero para makapag-compute
+        const priceString = params.get('price') || "0";
+        const discountRate = parseFloat(params.get('discount')) || 20; 
+
         const rawPrice = parseFloat(priceString.replace(/[^\d.]/g, '')) || 0;
-        const discount = 0.20; // 20%
-        const finalPrice = rawPrice * (1 - discount);
+        const finalPrice = rawPrice * ((100 - discountRate) / 100);
 
         document.getElementById('wName').innerText = name || "Watch Model";
         document.getElementById('oldPrice').innerText = "₱ " + rawPrice.toLocaleString();
-        document.getElementById('wPrice').innerText = "₱ " + finalPrice.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2});
-        
-        if(imgPath) document.getElementById('wImg').src = imgPath;
+        document.getElementById('promoPercent').innerText = discountRate + "% OFF";
+        document.getElementById('wPrice').innerText = "₱ " + finalPrice.toLocaleString(undefined, {minimumFractionDigits: 2});
+        document.getElementById('wImg').src = params.get('img');
 
-        const specsList = document.getElementById('specsContainer');
         const data = watchDatabase[name];
-
         if (data) {
-            specsList.innerHTML = `
-                <div class="spec-item"><div class="spec-label">Case Size</div><div class="spec-val">${data.caseSize}</div></div>
-                <div class="spec-item"><div class="spec-label">Weight</div><div class="spec-val">${data.weight}</div></div>
-                <div class="spec-item"><div class="spec-label">Material</div><div class="spec-val">${data.material}</div></div>
-                <div class="spec-item"><div class="spec-label">Band</div><div class="spec-val">${data.band}</div></div>
-                <div class="spec-item"><div class="spec-label">Water Res</div><div class="spec-val">${data.waterRes}</div></div>
-                <div class="spec-item"><div class="spec-label">Battery</div><div class="spec-val">${data.battery}</div></div>
+            document.getElementById('specsContainer').innerHTML = `
+                <div class="spec-row"><span class="spec-key">Movement</span><span class="spec-val">${data.movement}</span></div>
+                <div class="spec-row"><span class="spec-key">Case Size</span><span class="spec-val">${data.case}</span></div>
+                <div class="spec-row"><span class="spec-key">Material</span><span class="spec-val">${data.material}</span></div>
+                <div class="spec-row"><span class="spec-key">Water Res</span><span class="spec-val">${data.water}</span></div>
+                <div class="spec-row"><span class="spec-key">Power</span><span class="spec-val">${data.battery}</span></div>
             `;
+            // SET THE OFFICIAL LINK
             document.getElementById('wLink').href = data.fullSpecs;
         }
 
         function confirmOrder() {
-            const productName = document.getElementById('wName').innerText;
-            const fbPage = "DMZWatchTime"; 
-            const msg = encodeURIComponent("Hi! I'm interested in buying: " + productName + " at the promo price!");
-            window.open("https://m.me/" + fbPage + "?text=" + msg);
+            window.open("https://m.me/DMZWatchTime?text=" + encodeURIComponent("Order Interest: " + name + " (₱" + finalPrice.toLocaleString() + ")"));
         }
     </script>
 </body>
