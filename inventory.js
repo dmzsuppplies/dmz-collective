@@ -876,7 +876,5 @@ const watchInventory = [
     material: "Stainless Steel",
     waterRes: "10 bar (100m)",
     fullSpecs: "https://shop.seikoboutique.com.ph/products/seiko-5-sports-ssk023k1"
-	}
-	
-	
+	}	
 ];
