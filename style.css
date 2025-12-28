@@ -115,7 +115,7 @@ body {
     opacity: 0.9;
 }
 .cta-btn { 
-    padding: 18px 50px; 
+    padding: 15px 50px; 
     background: #D4AF37; 
     color: #000; 
     text-decoration: none; 
@@ -412,4 +412,55 @@ body {
 .shop-more-btn:hover {
     color: #fff;
     border-color: #fff;
+}
+/*--- new update code for mobile responsive ---*/
+
+/* --- MOBILE RESPONSIVE ONLY (Screens smaller than 768px) --- */
+@media screen and (max-width: 768px) {
+    /* Pinipigilan ang pag-stretch ng buong page */
+    body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    /* Ginagawang isang column lang ang grid para hindi siksik sa phone */
+    .product-grid {
+        grid-template-columns: 1fr !important;
+        gap: 15px !important;
+        padding: 20px 10px !important;
+    }
+
+    /* Inaayos ang Glass Panel sa Details/About (Stacking Layout) */
+    .glass-panel {
+        flex-direction: column !important;
+        width: 95% !important;
+        margin: 10px auto !important;
+    }
+
+    /* Sinisigurado na ang image at info ay 100% width sa mobile */
+    .image-section, .info-section {
+        min-width: 100% !important;
+        width: 100% !important;
+        border-right: none !important;
+        padding: 20px !important;
+    }
+
+    /* Inaayos ang buttons para hindi mag-overlap */
+    .order-btn, .cta-btn, .view-btn, .cta-btn-back {
+        width: 100% !important;
+        margin: 10px 0 !important;
+        display: block !important;
+        text-align: center !important;
+    }
+
+    /* Inaayos ang font size ng price para kasya sa screen */
+    .new-price {
+        font-size: 1.8rem !important;
+    }
+
+    /* Navbar adjustment para hindi tabingi ang logo */
+    .nav-container {
+        flex-direction: column !important;
+        gap: 10px;
+    }
 }
