@@ -58,7 +58,7 @@ const watchInventory = [
         price: 4199,
         discount: 20,
         img: "MTP-VD300SG-1E.png",
-		img2: "VD300SG-1E-2.png",
+        img2: "VD300SG-1E-2.png",
         movement: "Analog",
         caseSize: "49 × 45 × 8.7 mm",
         material: "Two-tone Steel",
@@ -69,7 +69,7 @@ const watchInventory = [
     {
         brand: "SEIKO",
         name: "SEIKO MENS GOLD SNKK20K1",
-        price: 12979.00,
+        price: 12979,
         discount: 10,
         img: "SNKK20K1.png",
         movement: "Automatic (7S26)",
@@ -79,23 +79,23 @@ const watchInventory = [
         battery: "Kinetic",
         fullSpecs: "https://www.watchportal.com.ph/products/seiko-snkk20k1"
     },
-	{
+    {
         brand: "SEIKO",
         name: "SEIKO SNKP09K1 MENS SILVER",
-        price: 10709.00, // Palitan mo ito ng iyong actual price
-        discount: 10, // Palitan mo kung ilang % ang discount
+        price: 10709,
+        discount: 10,
         img: "SNKP09K1.png",
         movement: "Automatic (7S26)",
         caseSize: "42mm Diameter",
         material: "Stainless Steel",
         waterRes: "50-meter",
         battery: "Self-Winding (Kinetic)",
-        fullSpecs: "https://shop.seikoboutique.com.ph/products/classic-snkp09k1?srsltid=AfmBOoq-LjSyiOpNM7LtzV1yZRBtPDemrePGc6PyvtVX3ZR7E2-9_Kvw&variant=47927734993177"
+        fullSpecs: "https://shop.seikoboutique.com.ph/products/classic-snkp09k1"
     },
-	{
+    {
         brand: "SEIKO",
         name: "SEIKO MENS SILVER SNK371K1",
-        price: 9139.00,
+        price: 9139,
         discount: 10,
         img: "SNK371K1.png",
         movement: "Automatic (7S26)",
@@ -108,7 +108,7 @@ const watchInventory = [
     {
         brand: "SEIKO",
         name: "SEIKO MENS TWO TONE SNKE54K1",
-        price: 12419.00,
+        price: 12419,
         discount: 10,
         img: "SNKE54K1.png",
         movement: "Automatic (7S26)",
@@ -116,12 +116,12 @@ const watchInventory = [
         material: "Two-tone Steel (Gold/Silver)",
         waterRes: "30-meter",
         battery: "Self-Winding (Kinetic)",
-        fullSpecs: "https://shop.seikoboutique.com.ph/products/classic-snke04k1?_pos=1&_psq=SNKE54K1&_ss=e&_v=1.0&variant=45518680293657"
+        fullSpecs: "https://shop.seikoboutique.com.ph/products/classic-snke04k1"
     },
-	{
+    {
         brand: "SEIKO",
         name: "SEIKO MENS SILVER SNKK31K1",
-        price: 9139.00,
+        price: 9139,
         discount: 10,
         img: "SNKK31K1.png",
         movement: "Automatic (7S26)",
@@ -134,7 +134,7 @@ const watchInventory = [
     {
         brand: "SEIKO",
         name: "SEIKO MENS GOLD SNKL50K1",
-        price: 12979.00,
+        price: 12979,
         discount: 10,
         img: "SNKL50K1.png",
         movement: "Automatic (7S26)",
@@ -147,7 +147,7 @@ const watchInventory = [
     {
         brand: "SEIKO",
         name: "SEIKO MENS SILVER SNKK13K1",
-        price: 9139.00,
+        price: 9139,
         discount: 10,
         img: "SNKK13K1.png",
         movement: "Automatic (7S26)",
@@ -157,10 +157,10 @@ const watchInventory = [
         battery: "Self-Winding (Kinetic)",
         fullSpecs: "https://www.seikowatches.com/ph-en/products/5sports"
     },
-	{
+    {
         brand: "SEIKO",
         name: "SEIKO MENS SILVER SNKL17K1",
-        price: 12419.00,
+        price: 12419,
         discount: 10,
         img: "SNKL17K1.png",
         movement: "Automatic (7S26)",
@@ -173,7 +173,7 @@ const watchInventory = [
     {
         brand: "SEIKO",
         name: "SEIKO MENS GOLD SNKL64K1",
-        price: 12979.00,
+        price: 12979,
         discount: 10,
         img: "SNKL64K1.png",
         movement: "Automatic (7S26)",
@@ -199,10 +199,10 @@ const watchInventory = [
     {
         brand: "SEIKO",
         name: "SEIKO MENS TWO TONE SNKL36K1",
-        price: 12419.00,
+        price: 12419,
         discount: 10,
         img: "SNKL36K1.png",
-		img2: "SNKL36K1-2.png",
+        img2: "SNKL36K1-2.png",
         movement: "Automatic (7S26)",
         caseSize: "38mm Diameter",
         material: "Two-tone Stainless Steel",
@@ -213,7 +213,7 @@ const watchInventory = [
     {
         brand: "SEIKO",
         name: "SEIKO MENS GOLD SNKK86K1",
-        price: 12979.00,
+        price: 12979,
         discount: 10,
         img: "SNKK86K1.png",
         movement: "Automatic (7S26)",
@@ -226,7 +226,7 @@ const watchInventory = [
     {
         brand: "SEIKO",
         name: "SEIKO MENS GOLD SNKL40K1",
-        price: 12979.00,
+        price: 12979,
         discount: 10,
         img: "SNKL40K1.png",
         movement: "Automatic (7S26)",
@@ -239,7 +239,7 @@ const watchInventory = [
     {
         brand: "SEIKO",
         name: "SEIKO MENS GOLD SNKL58K1",
-        price: 12979.00,
+        price: 12979,
         discount: 10,
         img: "SNKL58K1.png",
         movement: "Automatic (7S26)",
@@ -249,10 +249,10 @@ const watchInventory = [
         battery: "Self-Winding (Kinetic)",
         fullSpecs: "https://www.watchportal.com.ph/products/seiko-5-snkl58k1-gold-stainless-automatic-watch-men"
     },
-	{
+    {
         brand: "SEIKO",
         name: "SEIKO MENS SPORTS 100M SRPD63K1",
-        price: 18550.00,
+        price: 18550,
         discount: 10,
         img: "SRPD63K1.png",
         img2: "SRPD63K1-2.png",
@@ -266,7 +266,7 @@ const watchInventory = [
     {
         brand: "SEIKO",
         name: "SEIKO MENS SPORTS 100M SRPG29K1",
-        price: 17400.00,
+        price: 17400,
         discount: 10,
         img: "SRPG29K1.png",
         img2: "SRPG29K1-2.png",
@@ -281,7 +281,7 @@ const watchInventory = [
         brand: "SEIKO",
         name: "Seiko 5 Sports SRPF65K1 NARUTO Limited",
         price: 22000,
-        discount: 10, // Under Negotiation
+        discount: 10,
         img: "SRPF65K1.png",
         img2: "SRPF65K1-2.png",
         movement: "Automatic (4R36)",
@@ -294,8 +294,8 @@ const watchInventory = [
     {
         brand: "SEIKO",
         name: "SEIKO MENS SPORTS 100M SRPF70K1 NARUTO",
-        price: 22000.00,
-        discount: 10, // Under Negotiation
+        price: 22000,
+        discount: 10,
         img: "SRPF70K1.png",
         img2: "SRPF70K1-2.png",
         movement: "Automatic (4R36)",
@@ -309,7 +309,7 @@ const watchInventory = [
         brand: "SEIKO",
         name: "SEIKO MENS SPORTS 100M SRPF67K1 SARADA",
         price: 20500,
-        discount: 0, // Under Negotiation
+        discount: 0,
         img: "SRPF67K1.png",
         img2: "SRPF67K1-2.png",
         movement: "Automatic (4R36)",
@@ -322,7 +322,7 @@ const watchInventory = [
     {
         brand: "SEIKO",
         name: "Seiko 5 Sports SRPE51K1 Silver Automatic",
-        price: 16239.00,
+        price: 16239,
         discount: 10,
         img: "SRPE51K1.png",
         img2: "SRPE51K1-2.png",
@@ -336,7 +336,7 @@ const watchInventory = [
     {
         brand: "SEIKO",
         name: "SEIKO MENS SPORTS 100M SRPD85K1",
-        price: 17429.00,
+        price: 17429,
         discount: 10,
         img: "SRPD85K1.png",
         movement: "Automatic (4R36)",
@@ -349,7 +349,7 @@ const watchInventory = [
     {
         brand: "SEIKO",
         name: "Seiko 5 SRPF23K1 Street Fighter BLANKA",
-        price: 21649.00,
+        price: 21649,
         discount: 10, 
         img: "SRPF23K1.png",
         img2: "SRPF23K1-2.png",
@@ -360,10 +360,10 @@ const watchInventory = [
         battery: "Limited Edition (Street Fighter V)",
         fullSpecs: "https://www.seikowatches.com/ph-en/products/5sports/special/streetfighter/"
     },
-	{
+    {
         brand: "SEIKO",
         name: "SEIKO MENS SPORT SNZG11K1 BLUE",
-        price: 13556.00,
+        price: 13556,
         discount: 10,
         img: "SNZG11K1.png",
         img2: "SNZG11K1-2.png",
@@ -372,12 +372,12 @@ const watchInventory = [
         material: "Stainless Steel / Nylon Strap",
         waterRes: "100-meter",
         battery: "Self-Winding (Kinetic)",
-        fullSpecs: "https://www.chrono24.ph/seiko/5-sports-snzg11-blue-military-mens-watch-automatic-nylon-strap--id38100766.htm"
+        fullSpecs: "https://www.chrono24.ph/seiko/"
     },
     {
         brand: "SEIKO",
         name: "SEIKO MENS SPORTS 100M SRPD57K1",
-        price: 16779.00,
+        price: 16779,
         discount: 10,
         img: "SRPD57K1.png",
         img2: "SRPD57K1-2.png",
@@ -391,7 +391,7 @@ const watchInventory = [
     {
         brand: "SEIKO",
         name: "SEIKO MENS SPORTS 100M SRPD55K1",
-        price: 17429.00,
+        price: 19009.00,
         discount: 10,
         img: "SRPD55K1.png",
         img2: "SRPD55K1-2.png",
@@ -402,10 +402,10 @@ const watchInventory = [
         battery: "Self-Winding (41 Hours Power Reserve)",
         fullSpecs: "https://www.discovery-japan.me/category/select/pid/9026"
     },
-	{
+    {
         brand: "SEIKO",
         name: "SEIKO MENS SPORTS 100M SRPD65K1",
-        price: 20050.00,
+        price: 20050,
         discount: 10,
         img: "SRPD65K1.png",
         img2: "SRPD65K1-2.png",
@@ -419,7 +419,7 @@ const watchInventory = [
     {
         brand: "SEIKO",
         name: "SEIKO MENS SPORTS 100M SRPD51K1",
-        price: 16779.00,
+        price: 16779,
         discount: 10,
         img: "SRPD51K1.png",
         img2: "SRPD51K1-2.png",
@@ -433,7 +433,7 @@ const watchInventory = [
     {
         brand: "SEIKO",
         name: "SEIKO SRPD71K1 NEW 5 MENS SPORTS",
-        price: 19009.00,
+        price: 19009,
         discount: 10,
         img: "SRPD71K1.png",
         img2: "SRPD71K1-2.png",
@@ -458,7 +458,7 @@ const watchInventory = [
         battery: "Limited Edition (Shikamaru Nara)",
         fullSpecs: "https://shop.seikoboutique.com.ph/products/seiko-5-sports-srpf75k1-naruto-boruto-limited-edition"
     },
-	{
+    {
         brand: "CASIO",
         name: "CASIO MENS TWO TONE MTP 1303SG 7A",
         price: 4014,
@@ -474,7 +474,7 @@ const watchInventory = [
     },
     {
         brand: "CASIO",
-        name: "Casio Vintage LTP-1128G-9AR Gold Women",
+        name: "Casio Vintage LTP 1128G 9AR Gold Women",
         price: 2862,
         discount: 20,
         img: "LTP-1128G-9A.png",
@@ -502,7 +502,7 @@ const watchInventory = [
     },
     {
         brand: "CASIO",
-        name: "Casio MTP-1314SG-1AVDF Two Tone Men",
+        name: "Casio MTP 1314SG 1AVDF Two Tone Men",
         price: 4257,
         discount: 20,
         img: "MTP-1314SG-1A.png",
@@ -516,7 +516,7 @@ const watchInventory = [
     },
     {
         brand: "CASIO",
-        name: "Casio LTP-1235SG-7ADF Two tone Women",
+        name: "Casio LTP 1235SG 7ADF Two tone Women",
         price: 3294,
         discount: 20,
         img: "LTP-1235SG-7A.png",
@@ -530,7 +530,7 @@ const watchInventory = [
     },
     {
         brand: "CASIO",
-        name: "Casio MTP-1183G-7ADF Two Tone Men",
+        name: "Casio MTP 1183G 7ADF Two Tone Men",
         price: 3501,
         discount: 20,
         img: "MTP-1183G-7ADF.png",
@@ -544,7 +544,7 @@ const watchInventory = [
     },
     {
         brand: "CASIO",
-        name: "Casio MTP-1308SG-7AVDF Two Tone Men",
+        name: "Casio MTP 1308SG 7AVDF Two Tone Men",
         price: 4257,
         discount: 20,
         img: "MTP-1308SG-7AVDF.png",
@@ -558,7 +558,7 @@ const watchInventory = [
     },
     {
         brand: "CASIO",
-        name: "Casio LTP-1170G-7A Silver Stainless Women",
+        name: "Casio LTP 1170G 7A Silver Stainless Women",
         price: 3078,
         discount: 20,
         img: "LTP-1170G-7A.png",
@@ -572,7 +572,7 @@ const watchInventory = [
     },
     {
         brand: "CASIO",
-        name: "Casio LTP-1314SG-1AVDF Two Tone Women",
+        name: "Casio LTP 1314SG 1AVDF Two Tone Women",
         price: 4257,
         discount: 20,
         img: "LTP-1314SG-1AVDF.png",
@@ -586,7 +586,7 @@ const watchInventory = [
     },
     {
         brand: "CASIO",
-        name: "Casio LTP-1275SG-7BDF Two Tone Women",
+        name: "Casio LTP 1275SG 7BDF Two Tone Women",
         price: 3177,
         discount: 20,
         img: "LTP-1275SG-7BDF.png",
@@ -598,7 +598,7 @@ const watchInventory = [
         battery: "SR626SW",
         fullSpecs: "https://www.watchportal.com.ph/products/casio-ltp-1275sg-7bdf-two-tone-stainless-steel-strap-watch-for-women"
     },
-	{
+    {
         brand: "CASIO",
         name: "CASIO MENS SILVER MTP B145D 9A",
         price: 5090,
@@ -670,7 +670,7 @@ const watchInventory = [
     },
     {
         brand: "CASIO",
-        name: "Casio MTP-1308D-1A2VDF Silver Men",
+        name: "Casio MTP 1308D 1A2VDF Silver Men",
         price: 3330,
         discount: 20,
         img: "MTP-1308D-1A2VDF.png",
@@ -698,7 +698,7 @@ const watchInventory = [
     },
     {
         brand: "CASIO",
-        name: "Casio MTP-VT01D-2B Silver Watch Men",
+        name: "Casio MTP VT01D 2B Silver Watch Men",
         price: 2890,
         discount: 20,
         img: "MTP-VT01D-2B.png",
@@ -726,7 +726,7 @@ const watchInventory = [
     },
     {
         brand: "CASIO",
-        name: "CASIO MENS SILVER MDV-107D-3A STARBUCKS",
+        name: "CASIO MENS SILVER MDV 107D 3A STARBUCKS",
         price: 7000,
         discount: 20,
         img: "MDV-107D-3A.png",
@@ -740,7 +740,7 @@ const watchInventory = [
     },
     {
         brand: "CASIO",
-        name: "Casio MTP-E150D-7B Silver Watch Men",
+        name: "Casio MTP E150D 7B Silver Watch Men",
         price: 6680,
         discount: 30,
         img: "MTP-E150D-7B.png",
@@ -754,7 +754,7 @@ const watchInventory = [
     },
     {
         brand: "CASIO",
-        name: "Casio AQ-230A-2A1 MQYDF Dig-Ana Silver",
+        name: "Casio AQ 230A 2A1 MQYDF Dig-Ana Silver",
         price: 3320,
         discount: 20,
         img: "AQ-230A-2A1.png",
@@ -768,7 +768,7 @@ const watchInventory = [
     },
     {
         brand: "CASIO",
-        name: "Casio LTP-1170A-2ARDF Silver Women",
+        name: "Casio LTP 1170A 2ARDF Silver Women",
         price: 2830,
         discount: 20,
         img: "LTP-1170A-2ARDF.png",
@@ -796,7 +796,7 @@ const watchInventory = [
     },
     {
         brand: "CASIO",
-        name: "Casio LTP-1303D-7BVDF Silver Women",
+        name: "Casio LTP 1303D 7BVDF Silver Women",
         price: 3060,
         discount: 20,
         img: "LTP-1303D-7B.png",
@@ -838,7 +838,7 @@ const watchInventory = [
     },
     {
         brand: "CASIO",
-        name: "Casio MTP-1183A-7BDF Silver Men",
+        name: "Casio MTP 1183A 7BDF Silver Men",
         price: 2830,
         discount: 20,
         img: "MTP-1183A-7BDF.png",
@@ -852,7 +852,7 @@ const watchInventory = [
     },
     {
         brand: "CASIO",
-        name: "Casio MTP-1303D-7AVDF Silver Men",
+        name: "Casio MTP 1303D 7AVDF Silver Men",
         price: 3060,
         discount: 20,
         img: "MTP-1303D-7AVDF.png",
@@ -864,19 +864,618 @@ const watchInventory = [
         battery: "SR626SW (3 Years)",
         fullSpecs: "https://www.watchportal.com.ph/products/casio-mtp-1303d-7avdf-silver-stainless-steel-strap-watch-for-men"
     },
-	{
-	brand: "SEIKO",
-    name: "SEIKO MENS SPORTS SSK023K1",
-    model: "SSK023K1",
-    price: 20000,
-    discount: 10,
-    img: "ssk023k1.png", // Siguraduhing i-upload ang image na ito sa GitHub
-    img2: "ssk023k1-2.png",
-    movement: "4R34 Automatic with GMT",
-    caseSize: "39.4 mm x 13.1 mm",
-    material: "Stainless Steel",
-    waterRes: "10 bar (100m)",
-    fullSpecs: "https://shop.seikoboutique.com.ph/products/seiko-5-sports-ssk023k1"
-	}
-];
+    {
+        brand: "SEIKO",
+        name: "SEIKO MENS SPORTS SSK023K1 GMT",
+        price: 20000,
+        discount: 10,
+        img: "SSK023K1.png",
+        img2: "ssk023k1-2.png",
+        movement: "4R34 Automatic with GMT",
+        caseSize: "39.4 mm x 13.1 mm",
+        material: "Stainless Steel",
+        waterRes: "10 bar (100m)",
+        battery: "None (Self-winding)",
+        fullSpecs: "https://shop.seikoboutique.com.ph/products/seiko-5-sports-ssk023k1"
+    },
+    {
+        brand: "CASIO",
+        name: "CASIO MENS SILVER MTP-1381D-7A",
+        price: 2998,
+        discount: 10,
+        img: "MTP-1381D-7A.png",
+        movement: "Quartz",
+        caseSize: "39.9 mm",
+        material: "Stainless Steel",
+        waterRes: "50-meter",
+        battery: "SR920SW",
+        fullSpecs: "https://www.casio.com/intl/watches/casio/product.MTP-1381D-7A/"
+    },
+    {
+        brand: "CASIO",
+        name: "CASIO G-SHOCK GA-100-1A4",
+        price: 5699,
+        discount: 15,
+        img: "GA-100-1A4.png",
+        movement: "Digital-Analog Quartz",
+        caseSize: "51.2 mm",
+        material: "Resin",
+        waterRes: "200-meter",
+        battery: "CR1220",
+        fullSpecs: "https://www.casio.com/intl/watches/gshock/product.GA-100-1A4/"
+    },
+    {
+        brand: "SEIKO",
+        name: "SEIKO MENS SILVER AUTOMATIC SNKD99K1",
+        price: 9899,
+        discount: 10,
+        img: "SNKD99K1.png",
+        movement: "Automatic (7S26)",
+        caseSize: "37 mm",
+        material: "Stainless Steel",
+        waterRes: "50-meter",
+        battery: "Self-winding",
+        fullSpecs: "https://www.creationwatches.com/products/seiko-automatic-watches-69/seiko-5-automatic-snkd99-snkd99k1-snkd99k-mens-watch-3677.html"
+    },
+    {
+        brand: "SEIKO",
+        name: "SEIKO MENS SILVER AUTOMATIC SNXS73K1",
+        price: 9139.00,
+        discount: 0,
+        img: "SNXS73K1.png",
+        movement: "Automatic (7S26)",
+        caseSize: "37 mm",
+        material: "Stainless Steel",
+        waterRes: "30-meter",
+        battery: "Self-winding",
+        fullSpecs: "https://www.seikowatches.com/ph-en/products/5sports"
+    },
+    {
+        brand: "CASIO",
+        name: "CASIO LADIES GOLD LTP-V002G-1B",
+        price: 2499,
+        discount: 20,
+        img: "LTP-V002G-1B.png",
+        movement: "Quartz",
+        caseSize: "25 mm",
+        material: "Gold Tone Stainless Steel",
+        waterRes: "Water Resistant",
+        battery: "SR626SW",
+        fullSpecs: "https://www.casio.com/ph/watches/casio/product.LTP-V002G-1B/"
+    },
+    {
+        brand: "SEIKO",
+        name: "SEIKO LADIES SPORTS TWO TONE SRE004",
+        price: 20900.00,
+        discount: 10,
+        img: "SRE004.png",
+        movement: "Automatic (2R06)",
+        caseSize: "28 mm",
+        material: "Two-tone Stainless Steel",
+        waterRes: "100-meter",
+        battery: "Self-winding",
+        fullSpecs: "https://shop.seikoboutique.com.ph/products/seiko-5-sports-sre004k1"
+    },
+    {
+        brand: "SEIKO",
+        name: "SEIKO MENS SILVER SSB427P1",
+        price: 13900.00,
+        discount: 5,
+        img: "SSB427P1.png",
+        movement: "Quartz Chronograph",
+        caseSize: "41.5 mm",
+        material: "Stainless Steel",
+        waterRes: "100-meter",
+        battery: "SR936SW",
+        fullSpecs: "https://www.seikowatches.com/global-en/products/discovermore/ssb427p1"
+    },
+    {
+        brand: "CITIZEN",
+        name: "CITIZEN MENS SILVER NJ0200 50X",
+        price: 17099,
+        discount: 10,
+        img: "NJ0200-50X.png",
+        movement: "Automatic",
+        caseSize: "40 mm",
+        material: "Stainless Steel",
+        waterRes: "50-meter",
+        battery: "None (Self-winding)",
+        fullSpecs: "https://www.citizenwatch.com/"
+    },
+    {
+        brand: "CASIO",
+        name: "CASIO G SHOCK GBD 200 2",
+        price: 8199,
+        discount: 15,
+        img: "GBD-200-2.png",
+        movement: "Digital (MIP LCD)",
+        caseSize: "48.4 × 45.9 × 15 mm",
+        material: "Resin / Bio-based resin",
+        waterRes: "200-meter",
+        battery: "CR2032 (2 Years)",
+        fullSpecs: "https://www.casio.com/intl/watches/gshock/product.GBD-200-2/"
+    },
+    {
+        brand: "CASIO",
+        name: "CASIO G SHOCK GA B2100BBR 1A",
+        price: 8199,
+        discount: 10,
+        img: "GA-B2100BBR-1A.png",
+        movement: "Tough Solar / Bluetooth",
+        caseSize: "48.5 × 45.4 × 11.9 mm",
+        material: "Carbon / Resin",
+        waterRes: "200-meter",
+        battery: "Solar Powered",
+        fullSpecs: "https://www.casio.com/intl/watches/gshock/product.GA-B2100BBR-1A/"
+    },
+    {
+        brand: "CASIO",
+        name: "CASIO LADIES TWOTONE LTP 1235SG 7A",
+        price: 2699,
+        discount: 10,
+        img: "LTP-1235SG-7A.png",
+        movement: "Quartz",
+        caseSize: "28.5 × 20.5 × 8.2 mm",
+        material: "Two-tone Stainless Steel",
+        waterRes: "Water Resistant",
+        battery: "SR626SW",
+        fullSpecs: "https://www.casio.com/ph/watches/casio/product.LTP-1235SG-7A/"
+    },
+    {
+        brand: "CASIO",
+        name: "CASIO LADIES TWO TONE LTP 1314SG 1A",
+        price: 3399,
+        discount: 10,
+        img: "LTP-1314SG-1A.png",
+        movement: "Quartz",
+        caseSize: "36.5 × 33.1 × 8.8 mm",
+        material: "Two-tone Stainless Steel",
+        waterRes: "50-meter",
+        battery: "SR626SW",
+        fullSpecs: "https://www.casio.com/ph/watches/casio/product.LTP-1314SG-1A/"
+    },
+    {
+        brand: "CASIO",
+        name: "CASIO LADIES TWOTONE LTP 1170G 7A",
+        price: 2599,
+        discount: 10,
+        img: "LTP-1170G-7A.png",
+        movement: "Quartz",
+        caseSize: "33 × 28.5 × 7.3 mm",
+        material: "Stainless Steel / Gold Tone",
+        waterRes: "Water Resistant",
+        battery: "SR626SW",
+        fullSpecs: "https://www.casio.com/ph/watches/casio/product.LTP-1170G-7A/"
+    },
+    {
+        brand: "CASIO",
+        name: "CASIO LADIES TWO TONE LTP V005SG 7A",
+        price: 2199,
+        discount: 10,
+        img: "LTP-V005SG-7A.png",
+        movement: "Quartz",
+        caseSize: "34 × 28.2 × 7.5 mm",
+        material: "Two-tone Stainless Steel",
+        waterRes: "Water Resistant",
+        battery: "SR626SW",
+        fullSpecs: "https://www.casio.com/ph/watches/casio/product.LTP-V005SG-7A/"
+    },
+    {
+        brand: "CASIO",
+        name: "CASIO MENS TWO TONE MTP 1308SG 7A",
+        price: 3299,
+        discount: 10,
+        img: "MTP-1308SG-7A.png",
+        movement: "Quartz",
+        caseSize: "48.9 × 43.5 × 9.2 mm",
+        material: "Two-tone Stainless Steel",
+        waterRes: "50-meter",
+        battery: "SR626SW",
+        fullSpecs: "https://www.casio.com/ph/watches/casio/product.MTP-1308SG-7A/"
+    },
+    {
+        brand: "SEIKO",
+        name: "SEIKO MENS SILVER SNK063J5 AUTOMATIC",
+        price: 11387,
+        discount: 10,
+        img: "SNK063J5.png",
+        movement: "Automatic (7S26)",
+        caseSize: "37 mm",
+        material: "Stainless Steel",
+        waterRes: "30-meter",
+        battery: "None (Self-winding)",
+        fullSpecs: "https://shop.seikoboutique.com.ph/"
+    },
+    {
+        brand: "SEIKO",
+        name: "SEIKO MENS SILVER SNK601K1 AUTOMATIC",
+        price: 9139.00,
+        discount: 5,
+        img: "SNK601K1.png",
+        movement: "Automatic (7S26)",
+        caseSize: "37 mm",
+        material: "Stainless Steel",
+        waterRes: "30-meter",
+        battery: "None (Self-winding)",
+        fullSpecs: "https://shop.seikoboutique.com.ph/"
+    },
+    {
+        brand: "SEIKO",
+        name: "SEIKO 5 SPORTS SRPL89K1 AUTOMATIC",
+        price: 22250,
+        discount: 5,
+        img: "SRPL89K1.png",
+        movement: "Automatic (4R36)",
+        caseSize: "42.5 mm",
+        material: "Stainless Steel",
+        waterRes: "100-meter",
+        battery: "None (Self-winding)",
+        fullSpecs: "https://shop.seikoboutique.com.ph/products/seiko-5-sports-srpl89k1"
+    },
+    {
+        brand: "SEIKO",
+        name: "SEIKO 5 SPORTS SRPD61K1 AUTOMATIC GREEN",
+        price: 16779.00,
+        discount: 10,
+        img: "SRPD61K1.png",
+        movement: "Automatic (4R36)",
+        caseSize: "42.5 mm",
+        material: "Stainless Steel",
+        waterRes: "100-meter",
+        battery: "None (Self-winding)",
+        fullSpecs: "https://www.seikowatches.com/ph-en/products/5sports/srpd61"
+    },
+    {
+        brand: "SEIKO",
+        name: "SEIKO 5 SPORTS SRPD53K1 AUTOMATIC PEPSI",
+        price: 16779,
+        discount: 10,
+        img: "SRPD53K1.png",
+        movement: "Automatic (4R36)",
+        caseSize: "42.5 mm",
+        material: "Stainless Steel",
+        waterRes: "100-meter",
+        battery: "None (Self-winding)",
+        fullSpecs: "https://www.seikowatches.com/ph-en/products/5sports/srpd53"
+    },
+    {
+        brand: "SEIKO",
+        name: "SEIKO 5 SPORTS SRPD59K1 AUTOMATIC ORANGE",
+        price: 16779.00,
+        discount: 10,
+        img: "SRPD59K1.png",
+        movement: "Automatic (4R36)",
+        caseSize: "42.5 mm",
+        material: "Stainless Steel",
+        waterRes: "100-meter",
+        battery: "None (Self-winding)",
+        fullSpecs: "https://www.seikowatches.com/ph-en/products/5sports/srpd59"
+    },
+    {
+        brand: "SEIKO",
+        name: "SEIKO 5 SPORTS SRPD73K1 AUTOMATIC SUITS",
+        price: 20439.00,
+        discount: 10,
+        img: "SRPD73K1.png",
+        movement: "Automatic (4R36)",
+        caseSize: "42.5 mm",
+        material: "Stainless Steel / Mesh Bracelet",
+        waterRes: "100-meter",
+        battery: "None (Self-winding)",
+        fullSpecs: "https://www.seikowatches.com/ph-en/products/5sports/srpd73"
+    },
+    {
+        brand: "SEIKO",
+        name: "SEIKO 5 SPORTS FIELD SRPG27K1 AUTOMATIC",
+        price: 15699.00,
+        discount: 10,
+        img: "SRPG27K1.png",
+        movement: "Automatic (4R36)",
+        caseSize: "39.4 mm",
+        material: "Stainless Steel",
+        waterRes: "100-meter",
+        battery: "None (Self-winding)",
+        fullSpecs: "https://www.seikowatches.com/ph-en/products/5sports/srpg27"
+    },
+    {
+        brand: "CASIO",
+        name: "CASIO EDIFICE EFV 100D 2A BLUE",
+        price: 4899,
+        discount: 10,
+        img: "EFV-100D-2A.png",
+        movement: "Quartz",
+        caseSize: "48 × 42 × 10.9 mm",
+        material: "Stainless Steel",
+        waterRes: "100-meter",
+        battery: "SR927SW (3 Years)",
+        fullSpecs: "https://www.casio.com/ph/watches/edifice/product.EFV-100D-2AV/"
+    },
+    {
+        brand: "CASIO",
+        name: "CASIO EDIFICE EFR 526D 1A CHRONOGRAPH",
+        price: 5499,
+        discount: 10,
+        img: "EFR-526D-1A.png",
+        movement: "Quartz Chronograph",
+        caseSize: "48.5 × 43.8 × 11.6 mm",
+        material: "Stainless Steel",
+        waterRes: "100-meter",
+        battery: "SR920SW (2 Years)",
+        fullSpecs: "https://www.casio.com/ph/watches/edifice/product.EFR-526D-1AV/"
+    },
+    {
+        brand: "CASIO",
+        name: "CASIO G SHOCK DW 5600E 1V SQUARE",
+        price: 3699,
+        discount: 15,
+        img: "DW-5600E-1V.png",
+        movement: "Digital",
+        caseSize: "48.9 × 42.8 × 13.4 mm",
+        material: "Resin",
+        waterRes: "200-meter",
+        battery: "CR2016 (2 Years)",
+        fullSpecs: "https://www.casio.com/ph/watches/gshock/product.DW-5600E-1V/"
+    },
+    {
+        brand: "CASIO",
+        name: "CASIO G SHOCK GW M5610U 1 SOLAR",
+        price: 7899,
+        discount: 10,
+        img: "GW-M5610U-1.png",
+        movement: "Solar Powered / Multi-Band 6",
+        caseSize: "46.7 × 43.2 × 12.7 mm",
+        material: "Resin",
+        waterRes: "200-meter",
+        battery: "Solar Rechargeable",
+        fullSpecs: "https://www.casio.com/intl/watches/gshock/product.GW-M5610U-1/"
+    },
+    {
+        brand: "CASIO",
+        name: "CASIO G SHOCK GM 5600 1 METAL BEZEL",
+        price: 9499,
+        discount: 10,
+        img: "GM-5600-1.png",
+        movement: "Digital",
+        caseSize: "49.6 × 43.2 × 12.9 mm",
+        material: "Resin / Stainless Steel",
+        waterRes: "200-meter",
+        battery: "CR2016 (2 Years)",
+        fullSpecs: "https://www.casio.com/ph/watches/gshock/product.GM-5600-1/"
+    },
+    {
+        brand: "CASIO",
+        name: "CASIO G SHOCK GA 2100 1A1 CARBON CORE",
+        price: 5899,
+        discount: 10,
+        img: "GA-2100-1A1.png",
+        movement: "Digital-Analog",
+        caseSize: "48.5 × 45.4 × 11.8 mm",
+        material: "Carbon / Resin",
+        waterRes: "200-meter",
+        battery: "SR726W × 2 (3 Years)",
+        fullSpecs: "https://www.casio.com/ph/watches/gshock/product.GA-2100-1A1/"
+    },
+    {
+        brand: "CASIO",
+        name: "CASIO G SHOCK GA B2100 1A SOLAR BT",
+        price: 8499,
+        discount: 10,
+        img: "GA-B2100-1A.png",
+        movement: "Tough Solar / Bluetooth",
+        caseSize: "48.5 × 45.4 × 11.9 mm",
+        material: "Carbon / Resin",
+        waterRes: "200-meter",
+        battery: "Solar Rechargeable",
+        fullSpecs: "https://www.casio.com/ph/watches/gshock/product.GA-B2100-1A/"
+    },
+    {
+        brand: "CASIO",
+        name: "CASIO VINTAGE A168WG 9WDF GOLD",
+        price: 3299,
+        discount: 10,
+        img: "A168WG-9WDF.png",
+        movement: "Digital",
+        caseSize: "38.6 × 36.3 × 9.6 mm",
+        material: "Resin / Gold Tone Chrome Plated",
+        waterRes: "Water Resistant",
+        battery: "CR2016 (7 Years)",
+        fullSpecs: "https://www.casio.com/ph/watches/casio/product.A168WG-9/"
+    },
+    {
+        brand: "CASIO",
+        name: "CASIO VINTAGE B640WC 5ADF ROSE GOLD",
+        price: 3499,
+        discount: 10,
+        img: "B640WC-5ADF.png",
+        movement: "Digital",
+        caseSize: "38.9 × 35 × 9.4 mm",
+        material: "Resin / Rose Gold Ion Plated",
+        waterRes: "50-meter",
+        battery: "CR2016 (3 Years)",
+        fullSpecs: "https://www.casio.com/ph/watches/casio/product.B640WC-5A/"
+    },
+    {
+        brand: "CITIZEN",
+        name: "CITIZEN TSUYOSA AUTOMATIC NJ0150 81X GREEN",
+        price: 18500,
+        discount: 10,
+        img: "NJ0150-81X.png",
+        movement: "Automatic (8210)",
+        caseSize: "40 mm",
+        material: "Stainless Steel",
+        waterRes: "50-meter",
+        battery: "None (Self-winding)",
+        fullSpecs: "https://www.citizenwatch.com/us/en/product/NJ0150-81X.html"
+    },
+    {
+        brand: "CITIZEN",
+        name: "CITIZEN TSUYOSA AUTOMATIC NJ0150 81L BLUE",
+        price: 18500,
+        discount: 10,
+        img: "NJ0150-81L.png",
+        movement: "Automatic (8210)",
+        caseSize: "40 mm",
+        material: "Stainless Steel",
+        waterRes: "50-meter",
+        battery: "None (Self-winding)",
+        fullSpecs: "https://www.citizenwatch.com/us/en/product/NJ0150-81L.html"
+    },
+    {
+        brand: "CASIO",
+        name: "CASIO WORLD TIME AE 1200WHD 1A SILVER",
+        price: 2699,
+        discount: 10,
+        img: "AE-1200WHD-1A.png",
+        movement: "Digital",
+        caseSize: "45 × 42.1 × 12.5 mm",
+        material: "Resin / Stainless Steel Band",
+        waterRes: "100-meter",
+        battery: "CR2025 (10 Years)",
+        fullSpecs: "https://www.casio.com/ph/watches/casio/product.AE-1200WHD-1AV/"
+    },
+    {
+        brand: "CASIO",
+        name: "CASIO PROTREK PRG-270-1 TRIPLE SENSOR",
+        price: 9899,
+        discount: 10,
+        img: "PRG-270-1.png",
+        movement: "Tough Solar",
+        caseSize: "54.6 × 52.4 × 14.4 mm",
+        material: "Resin",
+        waterRes: "100-meter",
+        battery: "Solar Powered",
+        fullSpecs: "https://www.casio.com/ph/watches/protrek/product.PRG-270-1/"
+    },
+    {
+        brand: "CASIO",
+        name: "CASIO PROTREK PRW-30-1 DIGITAL",
+        price: 12500,
+        discount: 10,
+        img: "PRW-30-1.png",
+        movement: "Tough Solar / Multi-Band 6",
+        caseSize: "51.6 × 45.2 × 12.3 mm",
+        material: "Resin / Stainless Steel Bezel",
+        waterRes: "100-meter",
+        battery: "Solar Powered",
+        fullSpecs: "https://www.casio.com/intl/watches/protrek/product.PRW-30-1/"
+    },
+    {
+        brand: "CITIZEN",
+        name: "CITIZEN TSUYOSA AUTOMATIC NJ0151 88X TEAL",
+        price: 19500,
+        discount: 5,
+        img: "NJ0151-88X.png",
+        movement: "Automatic (8210)",
+        caseSize: "40 mm",
+        material: "Stainless Steel",
+        waterRes: "50-meter",
+        battery: "None (Self-winding)",
+        fullSpecs: "https://www.citizenwatch.com/us/en/product/NJ0150-81X.html"
+    },
+	/* --- Karagdagang Citizen Models (Available) --- */
+    {
+        brand: "CITIZEN",
+        name: "CITIZEN MENS SILVER NJ0150 81E",
+        price: 19205,
+        discount: 5,
+        img: "NJ0150-81E.png",
+        movement: "Automatic",
+        caseSize: "40 mm",
+        material: "Stainless Steel",
+        waterRes: "50-meter",
+        battery: "None (Self-winding)",
+        fullSpecs: "https://www.citizenwatch.com/"
+    },
+    {
+        brand: "CITIZEN",
+        name: "CITIZEN MENS SILVER NJ0180-80H",
+        price: 26799,
+        discount: 5,
+        img: "NJ0180-80H.png",
+        movement: "Automatic",
+        caseSize: "40 mm",
+        material: "Stainless Steel",
+        waterRes: "50-meter",
+        battery: "None (Self-winding)",
+        fullSpecs: "https://www.citizenwatch.com/"
+    },
+    {
+        brand: "CITIZEN",
+        name: "CITIZEN MENS SILVER NJ0180-80Z",
+        price: 26799,
+        discount: 5,
+        img: "NJ0180-80Z.png",
+        movement: "Automatic",
+        caseSize: "40 mm",
+        material: "Stainless Steel",
+        waterRes: "50-meter",
+        battery: "None (Self-winding)",
+        fullSpecs: "https://www.citizenwatch.com/"
+    },
+    {
+        brand: "CITIZEN",
+        name: "CITIZEN AUTOMATIC SILVER NH8350 59E",
+        price: 9599,
+        discount: 5,
+        img: "NH8350-59E.png",
+        movement: "Automatic",
+        caseSize: "40 mm",
+        material: "Stainless Steel",
+        waterRes: "50-meter",
+        battery: "None (Self-winding)",
+        fullSpecs: "https://www.citizenwatch.com/"
+    },
+    {
+        brand: "CITIZEN",
+        name: "CITIZEN MENS SILVER BN0199 53X",
+        price: 17499,
+        discount: 5,
+        img: "BN0199-53X.png",
+        movement: "Eco-Drive",
+        caseSize: "44.5 mm",
+        material: "Stainless Steel",
+        waterRes: "200-meter",
+        battery: "Solar Powered",
+        fullSpecs: "https://www.citizenwatch.com/"
+    },
+    {
+        brand: "CITIZEN",
+        name: "CITIZEN MENS BN0196 01L ECO DRIVE",
+        price: 17499,
+        discount: 5,
+        img: "BN0196-01L.png",
+        movement: "Eco-Drive",
+        caseSize: "44.5 mm",
+        material: "Stainless Steel",
+        waterRes: "200-meter",
+        battery: "Solar Powered",
+        fullSpecs: "https://www.citizenwatch.com/"
+    },
+    {
+        brand: "CITIZEN",
+        name: "CITIZEN MENS SILVER NJ0150 81A",
+        price: 19399,
+        discount: 5,
+        img: "NJ0150-81A.png",
+        movement: "Automatic",
+        caseSize: "40 mm",
+        material: "Stainless Steel",
+        waterRes: "50-meter",
+        battery: "None (Self-winding)",
+        fullSpecs: "https://www.citizenwatch.com/"
+    },
+    {
+        brand: "CITIZEN",
+        name: "CITIZEN LADIES GOLD EM1143-81X",
+        price: 20899,
+        discount: 5,
+        img: "EM1143-81X.png",
+        movement: "Eco-Drive",
+        caseSize: "33 mm",
+        material: "Gold Tone Stainless Steel",
+        waterRes: "50-meter",
+        battery: "Solar Powered",
+        fullSpecs: "https://www.citizenwatch.com/"
+    }
 
+];
