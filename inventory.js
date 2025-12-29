@@ -867,8 +867,8 @@ const watchInventory = [
 	{
     name: "SEIKO MENS SPORTS SSK023K1",
     model: "SSK023K1",
-    price: 20000,
-    discount: 0,
+    price: 22000,
+    discount: 10,
     img: "ssk023k1.png", // Siguraduhing i-upload ang image na ito sa GitHub
     img2: "ssk023k1-2.png",
     movement: "4R34 Automatic with GMT",
@@ -878,4 +878,5 @@ const watchInventory = [
     fullSpecs: "https://shop.seikoboutique.com.ph/products/seiko-5-sports-ssk023k1"
 	}	
 ];
+
 
