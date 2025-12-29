@@ -69,7 +69,7 @@ const watchInventory = [
     {
         brand: "SEIKO",
         name: "SEIKO MENS GOLD SNKK20K1",
-        price: 10799,
+        price: 12979.00,
         discount: 10,
         img: "SNKK20K1.png",
         movement: "Automatic (7S26)",
@@ -82,7 +82,7 @@ const watchInventory = [
 	{
         brand: "SEIKO",
         name: "SEIKO SNKP09K1 MENS SILVER",
-        price: 9699, // Palitan mo ito ng iyong actual price
+        price: 10709.00, // Palitan mo ito ng iyong actual price
         discount: 10, // Palitan mo kung ilang % ang discount
         img: "SNKP09K1.png",
         movement: "Automatic (7S26)",
@@ -95,7 +95,7 @@ const watchInventory = [
 	{
         brand: "SEIKO",
         name: "SEIKO MENS SILVER SNK371K1",
-        price: 9099,
+        price: 9139.00,
         discount: 10,
         img: "SNK371K1.png",
         movement: "Automatic (7S26)",
@@ -108,7 +108,7 @@ const watchInventory = [
     {
         brand: "SEIKO",
         name: "SEIKO MENS TWO TONE SNKE54K1",
-        price: 9299,
+        price: 12419.00,
         discount: 10,
         img: "SNKE54K1.png",
         movement: "Automatic (7S26)",
@@ -121,7 +121,7 @@ const watchInventory = [
 	{
         brand: "SEIKO",
         name: "SEIKO MENS SILVER SNKK31K1",
-        price: 9099,
+        price: 9139.00,
         discount: 10,
         img: "SNKK31K1.png",
         movement: "Automatic (7S26)",
@@ -134,7 +134,7 @@ const watchInventory = [
     {
         brand: "SEIKO",
         name: "SEIKO MENS GOLD SNKL50K1",
-        price: 9299,
+        price: 12979.00,
         discount: 10,
         img: "SNKL50K1.png",
         movement: "Automatic (7S26)",
@@ -147,7 +147,7 @@ const watchInventory = [
     {
         brand: "SEIKO",
         name: "SEIKO MENS SILVER SNKK13K1",
-        price: 9099,
+        price: 9139.00,
         discount: 10,
         img: "SNKK13K1.png",
         movement: "Automatic (7S26)",
@@ -160,7 +160,7 @@ const watchInventory = [
 	{
         brand: "SEIKO",
         name: "SEIKO MENS SILVER SNKL17K1",
-        price: 9099,
+        price: 12419.00,
         discount: 10,
         img: "SNKL17K1.png",
         movement: "Automatic (7S26)",
@@ -173,7 +173,7 @@ const watchInventory = [
     {
         brand: "SEIKO",
         name: "SEIKO MENS GOLD SNKL64K1",
-        price: 9299,
+        price: 12979.00,
         discount: 10,
         img: "SNKL64K1.png",
         movement: "Automatic (7S26)",
@@ -199,7 +199,7 @@ const watchInventory = [
     {
         brand: "SEIKO",
         name: "SEIKO MENS TWO TONE SNKL36K1",
-        price: 9299,
+        price: 12419.00,
         discount: 10,
         img: "SNKL36K1.png",
 		img2: "SNKL36K1-2.png",
@@ -213,7 +213,7 @@ const watchInventory = [
     {
         brand: "SEIKO",
         name: "SEIKO MENS GOLD SNKK86K1",
-        price: 9299,
+        price: 12979.00,
         discount: 10,
         img: "SNKK86K1.png",
         movement: "Automatic (7S26)",
@@ -226,7 +226,7 @@ const watchInventory = [
     {
         brand: "SEIKO",
         name: "SEIKO MENS GOLD SNKL40K1",
-        price: 9299,
+        price: 12979.00,
         discount: 10,
         img: "SNKL40K1.png",
         movement: "Automatic (7S26)",
@@ -239,7 +239,7 @@ const watchInventory = [
     {
         brand: "SEIKO",
         name: "SEIKO MENS GOLD SNKL58K1",
-        price: 9299,
+        price: 12979.00,
         discount: 10,
         img: "SNKL58K1.png",
         movement: "Automatic (7S26)",
@@ -252,7 +252,7 @@ const watchInventory = [
 	{
         brand: "SEIKO",
         name: "SEIKO MENS SPORTS 100M SRPD63K1",
-        price: 15767.50,
+        price: 18550.00,
         discount: 10,
         img: "SRPD63K1.png",
         img2: "SRPD63K1-2.png",
@@ -266,7 +266,7 @@ const watchInventory = [
     {
         brand: "SEIKO",
         name: "SEIKO MENS SPORTS 100M SRPG29K1",
-        price: 15767.50,
+        price: 17400.00,
         discount: 10,
         img: "SRPG29K1.png",
         img2: "SRPG29K1-2.png",
@@ -280,8 +280,8 @@ const watchInventory = [
     {
         brand: "SEIKO",
         name: "Seiko 5 Sports SRPF65K1 NARUTO Limited",
-        price: 20000,
-        discount: 0, // Under Negotiation
+        price: 22000,
+        discount: 10, // Under Negotiation
         img: "SRPF65K1.png",
         img2: "SRPF65K1-2.png",
         movement: "Automatic (4R36)",
@@ -294,8 +294,8 @@ const watchInventory = [
     {
         brand: "SEIKO",
         name: "SEIKO MENS SPORTS 100M SRPF70K1 NARUTO",
-        price: 20500,
-        discount: 0, // Under Negotiation
+        price: 22000.00,
+        discount: 10, // Under Negotiation
         img: "SRPF70K1.png",
         img2: "SRPF70K1-2.png",
         movement: "Automatic (4R36)",
@@ -322,7 +322,7 @@ const watchInventory = [
     {
         brand: "SEIKO",
         name: "Seiko 5 Sports SRPE51K1 Silver Automatic",
-        price: 14790,
+        price: 16239.00,
         discount: 10,
         img: "SRPE51K1.png",
         img2: "SRPE51K1-2.png",
@@ -336,7 +336,7 @@ const watchInventory = [
     {
         brand: "SEIKO",
         name: "SEIKO MENS SPORTS 100M SRPD85K1",
-        price: 16199,
+        price: 17429.00,
         discount: 10,
         img: "SRPD85K1.png",
         movement: "Automatic (4R36)",
@@ -349,8 +349,8 @@ const watchInventory = [
     {
         brand: "SEIKO",
         name: "Seiko 5 SRPF23K1 Street Fighter BLANKA",
-        price: 18899,
-        discount: 0, 
+        price: 21649.00,
+        discount: 10, 
         img: "SRPF23K1.png",
         img2: "SRPF23K1-2.png",
         movement: "Automatic (4R36)",
@@ -363,7 +363,7 @@ const watchInventory = [
 	{
         brand: "SEIKO",
         name: "SEIKO MENS SPORT SNZG11K1 BLUE",
-        price: 10899,
+        price: 13556.00,
         discount: 10,
         img: "SNZG11K1.png",
         img2: "SNZG11K1-2.png",
@@ -377,7 +377,7 @@ const watchInventory = [
     {
         brand: "SEIKO",
         name: "SEIKO MENS SPORTS 100M SRPD57K1",
-        price: 13899,
+        price: 16779.00,
         discount: 10,
         img: "SRPD57K1.png",
         img2: "SRPD57K1-2.png",
@@ -391,7 +391,7 @@ const watchInventory = [
     {
         brand: "SEIKO",
         name: "SEIKO MENS SPORTS 100M SRPD55K1",
-        price: 16199,
+        price: 17429.00,
         discount: 10,
         img: "SRPD55K1.png",
         img2: "SRPD55K1-2.png",
@@ -405,7 +405,7 @@ const watchInventory = [
 	{
         brand: "SEIKO",
         name: "SEIKO MENS SPORTS 100M SRPD65K1",
-        price: 16599,
+        price: 20050.00,
         discount: 10,
         img: "SRPD65K1.png",
         img2: "SRPD65K1-2.png",
@@ -419,7 +419,7 @@ const watchInventory = [
     {
         brand: "SEIKO",
         name: "SEIKO MENS SPORTS 100M SRPD51K1",
-        price: 15000,
+        price: 16779.00,
         discount: 10,
         img: "SRPD51K1.png",
         img2: "SRPD51K1-2.png",
@@ -433,7 +433,7 @@ const watchInventory = [
     {
         brand: "SEIKO",
         name: "SEIKO SRPD71K1 NEW 5 MENS SPORTS",
-        price: 16199,
+        price: 19009.00,
         discount: 10,
         img: "SRPD71K1.png",
         img2: "SRPD71K1-2.png",
@@ -447,7 +447,7 @@ const watchInventory = [
     {
         brand: "SEIKO",
         name: "SEIKO SRPF75K1 SHIKAMARU Limited Edition",
-        price: 20000,
+        price: 22000.00,
         discount: 10,
         img: "SRPF75K1.png",
         img2: "SRPF75K1-2.png",
@@ -726,11 +726,11 @@ const watchInventory = [
     },
     {
         brand: "CASIO",
-        name: "CASIO MENS SILVER MDV 107D 3A STARBUCKS",
-        price: 7420,
+        name: "CASIO MENS SILVER MDV-107D-3A STARBUCKS",
+        price: 7000,
         discount: 20,
-        img: "soon.png",
-        img2: "soon.png",
+        img: "MDV-107D-3A.png",
+        img2: "MDV-107D-3A-2.png",
         movement: "Quartz",
         caseSize: "49.5 × 44.2 × 12.1 mm",
         material: "Stainless Steel / Green Bezel",
@@ -743,8 +743,8 @@ const watchInventory = [
         name: "Casio MTP-E150D-7B Silver Watch Men",
         price: 6680,
         discount: 30,
-        img: "soon.png",
-        img2: "soon.png",
+        img: "MTP-E150D-7B.png",
+        img2: "MTP-E150D-7B-2.png",
         movement: "Quartz",
         caseSize: "47 × 40 × 9.5 mm",
         material: "Stainless Steel",
@@ -754,11 +754,11 @@ const watchInventory = [
     },
     {
         brand: "CASIO",
-        name: "Casio AQ-230A-2A1MQYDF Dig-Ana Silver",
+        name: "Casio AQ-230A-2A1 MQYDF Dig-Ana Silver",
         price: 3320,
         discount: 20,
-        img: "soon.png",
-        img2: "soon.png",
+        img: "AQ-230A-2A1.png",
+        img2: "AQ-230A-2A1-2.png",
         movement: "Digital-Analog",
         caseSize: "38.8 × 29.8 × 8.1 mm",
         material: "Stainless Steel",
@@ -771,8 +771,8 @@ const watchInventory = [
         name: "Casio LTP-1170A-2ARDF Silver Women",
         price: 2830,
         discount: 20,
-        img: "soon.png",
-        img2: "soon.png",
+        img: "LTP-1170A-2ARDF.png",
+        img2: "LTP-1170A-2ARDF-2.png",
         movement: "Quartz",
         caseSize: "33 × 28.5 × 7.3 mm",
         material: "Stainless Steel",
@@ -785,7 +785,7 @@ const watchInventory = [
         name: "CASIO MENS SILVER MTP VT01D 2B2",
         price: 3000,
         discount: 20,
-        img: "soon.png",
+        img: "MTP-VT01D-2B2.png",
         img2: "soon.png",
         movement: "Quartz",
         caseSize: "46 × 40 × 8.2 mm",
@@ -799,8 +799,8 @@ const watchInventory = [
         name: "Casio LTP-1303D-7BVDF Silver Women",
         price: 3060,
         discount: 20,
-        img: "soon.png",
-        img2: "soon.png",
+        img: "LTP-1303D-7B.png",
+        img2: "LTP-1303D-7B-2.png",
         movement: "Quartz",
         caseSize: "35.5 × 30 × 7.5 mm",
         material: "Stainless Steel",
@@ -811,9 +811,9 @@ const watchInventory = [
     {
         brand: "CASIO",
         name: "CASIO MENS BLACK MTP B115B 1E",
-        price: 4000,
+        price: 5350.40,
         discount: 20,
-        img: "soon.png",
+        img: "MTP-B115B-1E.png",
         img2: "soon.png",
         movement: "Quartz",
         caseSize: "48 × 41 × 8 mm",
@@ -827,8 +827,8 @@ const watchInventory = [
         name: "CASIO MENS SILVER MTP V002D 2B3",
         price: 2240,
         discount: 20,
-        img: "soon.png",
-        img2: "soon.png",
+        img: "MTP-V002D-2B3.png",
+        img2: "MTP-V002D-2B3-2.png",
         movement: "Quartz",
         caseSize: "44 × 37 × 9.6 mm",
         material: "Stainless Steel",
@@ -841,8 +841,8 @@ const watchInventory = [
         name: "Casio MTP-1183A-7BDF Silver Men",
         price: 2830,
         discount: 20,
-        img: "soon.png",
-        img2: "soon.png",
+        img: "MTP-1183A-7BDF.png",
+        img2: "MTP-1183A-7BDF-2.png",
         movement: "Quartz",
         caseSize: "42 × 38.5 × 8.7 mm",
         material: "Stainless Steel",
@@ -867,17 +867,14 @@ const watchInventory = [
 	{
     name: "SEIKO MENS SPORTS SSK023K1",
     model: "SSK023K1",
-    price: 22000,
+    price: 20000,
     discount: 10,
-    img: "SSK023K1.png", // Siguraduhing i-upload ang image na ito sa GitHub
-    img2: "SSK023K1-2.png",
+    img: "ssk023k1.png", // Siguraduhing i-upload ang image na ito sa GitHub
+    img2: "ssk023k1-2.png",
     movement: "4R34 Automatic with GMT",
     caseSize: "39.4 mm x 13.1 mm",
     material: "Stainless Steel",
     waterRes: "10 bar (100m)",
     fullSpecs: "https://shop.seikoboutique.com.ph/products/seiko-5-sports-ssk023k1"
-	}	
+	}
 ];
-
-
-
