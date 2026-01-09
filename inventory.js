@@ -970,19 +970,6 @@ const watchInventory = [
         fullSpecs: "https://www.seikowatches.com/global-en/products/discovermore/ssb427p1"
     },
     {
-        brand: "CITIZEN",
-        name: "CITIZEN MENS SILVER NJ0200 50X",
-        price: 17099,
-        discount: 10,
-        img: "NJ0200-50X.png",
-        movement: "Automatic",
-        caseSize: "40 mm",
-        material: "Stainless Steel",
-        waterRes: "50-meter",
-        battery: "None (Self-winding)",
-        fullSpecs: "https://www.citizenwatch.com/"
-    },
-    {
         brand: "CASIO",
         name: "CASIO G SHOCK GBD 200 2",
         price: 8199,
@@ -1356,7 +1343,7 @@ const watchInventory = [
         brand: "CITIZEN",
         name: "CITIZEN MENS SILVER NJ0180-80H",
         price: 26799,
-        discount: 5,
+        discount: 0,
         img: "NJ0180-80H.png",
 		img2: "NJ0180-80H-2.png",
         movement: "Automatic",
@@ -1452,5 +1439,6 @@ const watchInventory = [
     }
 
 ];
+
 
 
