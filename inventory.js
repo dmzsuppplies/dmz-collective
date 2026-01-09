@@ -58,7 +58,6 @@ const watchInventory = [
         price: 4199,
         discount: 20,
         img: "MTP-VD300SG-1E.png",
-        img2: "VD300SG-1E-2.png",
         movement: "Analog",
         caseSize: "49 × 45 × 8.7 mm",
         material: "Two-tone Steel",
@@ -984,19 +983,6 @@ const watchInventory = [
     },
     {
         brand: "CASIO",
-        name: "CASIO G SHOCK GA B2100BBR 1A",
-        price: 8199,
-        discount: 10,
-        img: "GA-B2100BBR-1A.png",
-        movement: "Tough Solar / Bluetooth",
-        caseSize: "48.5 × 45.4 × 11.9 mm",
-        material: "Carbon / Resin",
-        waterRes: "200-meter",
-        battery: "Solar Powered",
-        fullSpecs: "https://www.casio.com/intl/watches/gshock/product.GA-B2100BBR-1A/"
-    },
-    {
-        brand: "CASIO",
         name: "CASIO LADIES TWOTONE LTP 1235SG 7A",
         price: 2699,
         discount: 10,
@@ -1153,19 +1139,6 @@ const watchInventory = [
     },
     {
         brand: "CASIO",
-        name: "CASIO EDIFICE EFV 100D 2A BLUE",
-        price: 4899,
-        discount: 10,
-        img: "EFV-100D-2A.png",
-        movement: "Quartz",
-        caseSize: "48 × 42 × 10.9 mm",
-        material: "Stainless Steel",
-        waterRes: "100-meter",
-        battery: "SR927SW (3 Years)",
-        fullSpecs: "https://www.casio.com/ph/watches/edifice/product.EFV-100D-2AV/"
-    },
-    {
-        brand: "CASIO",
         name: "CASIO EDIFICE EFR 526D 1A CHRONOGRAPH",
         price: 5499,
         discount: 10,
@@ -1189,84 +1162,6 @@ const watchInventory = [
         waterRes: "200-meter",
         battery: "CR2016 (2 Years)",
         fullSpecs: "https://www.casio.com/ph/watches/gshock/product.DW-5600E-1V/"
-    },
-    {
-        brand: "CASIO",
-        name: "CASIO G SHOCK GW M5610U 1 SOLAR",
-        price: 7899,
-        discount: 10,
-        img: "GW-M5610U-1.png",
-        movement: "Solar Powered / Multi-Band 6",
-        caseSize: "46.7 × 43.2 × 12.7 mm",
-        material: "Resin",
-        waterRes: "200-meter",
-        battery: "Solar Rechargeable",
-        fullSpecs: "https://www.casio.com/intl/watches/gshock/product.GW-M5610U-1/"
-    },
-    {
-        brand: "CASIO",
-        name: "CASIO G SHOCK GM 5600 1 METAL BEZEL",
-        price: 9499,
-        discount: 10,
-        img: "GM-5600-1.png",
-        movement: "Digital",
-        caseSize: "49.6 × 43.2 × 12.9 mm",
-        material: "Resin / Stainless Steel",
-        waterRes: "200-meter",
-        battery: "CR2016 (2 Years)",
-        fullSpecs: "https://www.casio.com/ph/watches/gshock/product.GM-5600-1/"
-    },
-    {
-        brand: "CASIO",
-        name: "CASIO G SHOCK GA 2100 1A1 CARBON CORE",
-        price: 5899,
-        discount: 10,
-        img: "GA-2100-1A1.png",
-        movement: "Digital-Analog",
-        caseSize: "48.5 × 45.4 × 11.8 mm",
-        material: "Carbon / Resin",
-        waterRes: "200-meter",
-        battery: "SR726W × 2 (3 Years)",
-        fullSpecs: "https://www.casio.com/ph/watches/gshock/product.GA-2100-1A1/"
-    },
-    {
-        brand: "CASIO",
-        name: "CASIO G SHOCK GA B2100 1A SOLAR BT",
-        price: 8499,
-        discount: 10,
-        img: "GA-B2100-1A.png",
-        movement: "Tough Solar / Bluetooth",
-        caseSize: "48.5 × 45.4 × 11.9 mm",
-        material: "Carbon / Resin",
-        waterRes: "200-meter",
-        battery: "Solar Rechargeable",
-        fullSpecs: "https://www.casio.com/ph/watches/gshock/product.GA-B2100-1A/"
-    },
-    {
-        brand: "CASIO",
-        name: "CASIO VINTAGE A168WG 9WDF GOLD",
-        price: 3299,
-        discount: 10,
-        img: "A168WG-9WDF.png",
-        movement: "Digital",
-        caseSize: "38.6 × 36.3 × 9.6 mm",
-        material: "Resin / Gold Tone Chrome Plated",
-        waterRes: "Water Resistant",
-        battery: "CR2016 (7 Years)",
-        fullSpecs: "https://www.casio.com/ph/watches/casio/product.A168WG-9/"
-    },
-    {
-        brand: "CASIO",
-        name: "CASIO VINTAGE B640WC 5ADF ROSE GOLD",
-        price: 3499,
-        discount: 10,
-        img: "B640WC-5ADF.png",
-        movement: "Digital",
-        caseSize: "38.9 × 35 × 9.4 mm",
-        material: "Resin / Rose Gold Ion Plated",
-        waterRes: "50-meter",
-        battery: "CR2016 (3 Years)",
-        fullSpecs: "https://www.casio.com/ph/watches/casio/product.B640WC-5A/"
     },
     {
         brand: "CITIZEN",
@@ -1439,6 +1334,7 @@ const watchInventory = [
     }
 
 ];
+
 
 
 
